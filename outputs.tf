@@ -5,5 +5,5 @@
 
 output "moid" {
   description = "Serial over LAN Policy Managed Object ID (moid)."
-  value       = intersight_sol_policy.sol.moid
+  value       = intersight_sol_policy.serial_over_lan.moid
 }
