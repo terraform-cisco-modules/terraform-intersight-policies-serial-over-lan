@@ -106,9 +106,6 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_apikey"></a> [apikey](#input\_apikey) | Intersight API Key. | `string` | n/a | yes |
-| <a name="input_endpoint"></a> [endpoint](#input\_endpoint) | Intersight URL. | `string` | `"https://intersight.com"` | no |
-| <a name="input_secretkey"></a> [secretkey](#input\_secretkey) | Intersight Secret Key. | `string` | n/a | yes |
 | <a name="input_baud_rate"></a> [baud\_rate](#input\_baud\_rate) | Baud Rate to Assign to the Policy.  Options are:<br>* 9600<br>* 19200<br>* 38400<br>* 57600<br>* 115200 | `string` | `9600` | no |
 | <a name="input_com_port"></a> [com\_port](#input\_com\_port) | Communications Port to Assign to the Policy.  Options are:<br>* com0<br>* com1 | `string` | `"com0"` | no |
 | <a name="input_description"></a> [description](#input\_description) | Description for the Policy. | `string` | `""` | no |
